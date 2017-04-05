@@ -1,0 +1,19 @@
+{
+  "name": "mqtt_stresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/mqtt": "0.0.34",
+    "ts-node": "^3.0.2"
+  }
+}
